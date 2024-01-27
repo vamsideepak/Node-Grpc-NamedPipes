@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package NamedPipe;
+
+service NamedPipeService {
+  rpc YourRpcMethod(RequestMessage) returns (ResponseMessage);
+}
+
+message RequestMessage {
+  string message = 1;
+}
+
+message ResponseMessage {
+  string message = 1;
+}
