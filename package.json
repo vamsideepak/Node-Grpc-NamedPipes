@@ -1,0 +1,15 @@
+{
+  "name": "vamsi_named_pipe",
+  "version": "1.0.0",
+  "description": "This is for testing namedpipes in node-grpc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vamsi",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.14",
+    "@grpc/proto-loader": "^0.7.10"
+  }
+}
